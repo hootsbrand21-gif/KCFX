@@ -5,7 +5,7 @@ import pytz, random, json
 from strategy import analyze_gold
 
 app = Flask(__name__)
-app.secret_key = "replace_this_with_a_random_key"
+app.secret_key = "a9d8s7f6g5h4j3k2l1q0z9x8c7v6b5n4"
 socketio = SocketIO(app, cors_allowed_origins="*")
 LAGOS = pytz.timezone("Africa/Lagos")
 
