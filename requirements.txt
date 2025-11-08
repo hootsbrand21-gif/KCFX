@@ -4,3 +4,4 @@ requests==2.31.0
 flask-socketio==5.3.6
 pytz==2024.1
 gunicorn
+eventlet
